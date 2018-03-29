@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    overflow: hidden;
+    background-color: #fcdb00;
+    min-height: 741px;
+}
+#service {
+    overflow: hidden;
+    margin-top: 118px;
+}
+
+#footer {
+    overflow: hidden;
+   min-height: 700px;
+    background-color: black;
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar {
+    overflow: hidden;
+    margin-top: 59px;
+}
+
+.logo {
+    width: 40%;
+    float: left;
+}
+
+.menubar {
+    width: 40%;
+    float: right;
+}
+.menubar ul{
+    list-style: none;
+}
+.menubar ul li{
+    float: left;
+    
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0px 37px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.slider {
+    overflow: hidden;
+        margin-top: 73px;
+}
+
+.slider_description {
+    width: 40%;
+    float: left;
+    padding-top: 60px;
+}
+.slider_description h1{
+    padding-bottom: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.slider_description p{
+    padding-bottom: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.slider_os {
+}
+.os_image{
+        padding: 0px 16px;
+    margin-left: -13px;
+    width: 27px;
+}
+.slider_pic {
+    width: 40%;
+    float: right;
+    margin-right: -28px;
+}
+
+.loaders {
+    text-align: center;
+        margin-top: 42px;
+}
+
+.service_description {
+    text-align: center;
+}
+.service_description h1{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+.service_description p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.service_products {
+    overflow: hidden;
+    margin-top: 93px;
+    
+    
+}
+
+.single_product {
+    overflow: hidden;
+   float: left;
+    width: 30%;
+    padding-bottom: 77px;
+    padding-right: 35px;
+}
+
+.product_image {
+/*    width: 30%;*/
+    float: left;
+}
+
+.prodcut_description {
+    width: 78%;
+    float: right;
+}
+.prodcut_description h1{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+}
+.prodcut_description p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+.footer_description {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 96px;
+}
+.footer_description h1{
+    color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.footer_description p{
+    color: #898989;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.footer_form {
+        margin-bottom: 18px;
+}
+
+.form-group {
+}
+
+.footer_input {
+    width: 580px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.submit {
+    width: 127px;
+    height: 55px;
+     border-radius: 5px;
+    border: 1px solid #fcdb00;
+    background-color: #fcdb00;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b5b5b5;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+:-moz-placeholder { /* Firefox 18- */
+ font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+.common_margin{
+    padding-bottom: 20px;
+}
+
+.social_icon {
+}
+.fa{
+        padding: 0px 18px;
+    font-size: 39px
+}
+
+.fa.fa-facebook-square {
+    color: #fcdb00;
+}
+
+.fa.fa-twitter-square {
+    color: #fcdb00;
+}
+
+.fa.fa-google-plus-square {
+    color: #fcdb00;
+}
+
+.fa.fa-pinterest-square {
+    color: #fcdb00;
+}
+
+.footer_bottom {
+margin-top: 100px;
+width:800px;
+display:inline-flex;
+
+}
+
+.single_part {
+    padding: 20px;
+	width:20%;
+	color:#fff;
+	text-align: left;
+        padding: 0px 41px;
+}
+.single_part h1{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+.single_part p{
+     font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+.single_part ul{
+    list-style: none;
+}
+.single_part ul li a{
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color:white;
+    font-size: 16px;
+}
